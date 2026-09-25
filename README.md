@@ -1,18 +1,27 @@
-# Yusuke-114 Tap
+# Yusuke-114 Homebrew Tap
 
-## How do I install these formulae?
+Homebrew tap for yusuke-114 apps.
 
-`brew install yusuke-114/tap/<formula>`
+## Install Steward
 
-Or `brew tap yusuke-114/tap` and then `brew install <formula>`.
+```sh
+brew tap yusuke-114/tap
+brew install --cask steward
+```
 
-Or, in a `brew bundle` `Brewfile`:
+Or install directly:
+
+```sh
+brew install --cask yusuke-114/tap/steward
+```
+
+For `brew bundle`:
 
 ```ruby
 tap "yusuke-114/tap"
-brew "<formula>"
+cask "steward"
 ```
 
-## Documentation
+## Apps
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+- [Steward](https://github.com/yusuke-114/Steward)
