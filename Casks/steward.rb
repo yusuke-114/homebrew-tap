@@ -1,6 +1,6 @@
 cask "steward" do
-  version "1.0"
-  sha256 "4a654be773b06ba34e7851b5ec549b65aa29a17cf537590088796655e08cff01"
+  version "2.0"
+  sha256 "3273f33a00ca1e916c00072bccba24b74628947927078da13978bd008cc17a40"
 
   url "https://github.com/yusuke-114/Steward/releases/download/v#{version}/Steward-#{version}.zip"
   name "Steward"
