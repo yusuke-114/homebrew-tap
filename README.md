@@ -22,6 +22,13 @@ tap "yusuke-114/tap"
 cask "steward"
 ```
 
+## Install LongScreenshot
+
+```sh
+brew install --cask yusuke-114/tap/longscreenshot
+```
+
 ## Apps
 
 - [Steward](https://github.com/yusuke-114/Steward)
+- [LongScreenshot](https://github.com/yusuke-114/LongScreenshotApp)
