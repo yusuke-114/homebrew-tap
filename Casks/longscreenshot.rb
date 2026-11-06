@@ -1,6 +1,6 @@
 cask "longscreenshot" do
-  version "2.1"
-  sha256 "93914416ada70d5da12595901d971dcf0e5c25fd3af0843089498b5e40631beb"
+  version "3.1"
+  sha256 "11e74b973623429f16bbcc0430b459402f5660beb850d122a5047917679dfe40"
 
   url "https://github.com/yusuke-114/LongScreenShot/releases/download/v#{version}/LongScreenshot-#{version}.zip"
   name "LongScreenshot"
